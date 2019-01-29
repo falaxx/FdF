@@ -6,7 +6,7 @@
 /*   By: fmerding <fmerding@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/28 12:01:58 by fmerding          #+#    #+#             */
-/*   Updated: 2019/01/28 14:59:26 by fmerding         ###   ########.fr       */
+/*   Updated: 2019/01/29 18:11:15 by jgehin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,9 @@ int		main(int ac, char **av)
 	lst->xteta = 0.52;
 	lst->yteta = 0.52;
 	ft_parsing(lst, av);
+	lst->mlx_ptr = mlx_init();
+	lst->win_ptr = mlx_new_window(lst->mlx_ptr, WIN_SIZEX, WIN_SIZEY, "FdF");
+	ft_init_image(lst, WIN_SIZEX, WIN_SIZEY);
 	ft_parsing_to_trace(lst);
 	mlx_hook(lst->win_ptr, 2, 0, key_hook, (void *)lst);
 	mlx_hook(lst->win_ptr, 4, 0, mouse_hook, (void *)lst);

@@ -6,7 +6,7 @@
 /*   By: jgehin <jgehin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 15:41:37 by jgehin            #+#    #+#             */
-/*   Updated: 2019/01/28 14:47:51 by fmerding         ###   ########.fr       */
+/*   Updated: 2019/01/29 18:11:10 by jgehin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,11 +53,8 @@ void	ft_init_list2(t_fdf *lst, int i, int u)
 		u = 0;
 	}
 	ft_startspace(lst);
-	lst->mlx_ptr = mlx_init();
-	lst->win_ptr = mlx_new_window(lst->mlx_ptr, WIN_SIZEX, WIN_SIZEY, "FdF");
 	lst->mode = 1;
 	lst->menu = 1;
-	ft_init_image(lst, WIN_SIZEX, WIN_SIZEY);
 }
 
 void	ft_init_list(t_fdf *lst)

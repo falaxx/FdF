@@ -6,7 +6,7 @@
 /*   By: jgehin <jgehin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/28 11:52:01 by jgehin            #+#    #+#             */
-/*   Updated: 2019/01/28 11:58:08 by jgehin           ###   ########.fr       */
+/*   Updated: 2019/01/29 18:31:39 by jgehin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ int		ft_menu(t_fdf *lst, int sizex, int sizey)
 	mlx_string_put(lst->mlx_ptr, lst->win_ptr, 60, 195, 0xFFFF90,
 		"Scroll souris = Zoom");
 	mlx_string_put(lst->mlx_ptr, lst->win_ptr, 60, 230, 0xFFFF90,
-		"Touches std '1' et '2' = Choix du mode");
+		"Touches std 1, 2, 3 = Choix du mode");
 	mlx_string_put(lst->mlx_ptr, lst->win_ptr, 60, 265, 0xFFFF90,
 		"Touches num [1-8] = Choix des couleurs");
 	mlx_string_put(lst->mlx_ptr, lst->win_ptr, 60, 300, 0xFFFF90,

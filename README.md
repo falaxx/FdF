@@ -3,7 +3,7 @@ Introduction project to 42 graphic course. 3D wireframe representation of a map.
 
 ## Description 
 
-The goal of the project is output 3D and interactive representation of a map file given as an argument map as wireframes.
+The goal of the project is output 3D and interactive representation of a map file given as an argument as wireframes.
 ![](fdf.gif)
 
 ## Installation 

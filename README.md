@@ -1,5 +1,5 @@
 # FdF (FilDeFer)
-Introduction project to 42 graphic course. 3D wireframe representation of a map.
+Introduction project to 42 graphic course. 3D wireframe representation of a landscape.
 
 ## Description 
 

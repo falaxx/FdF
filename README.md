@@ -13,6 +13,10 @@ Then simply
 ```
 make
 ```
+or 
+```
+make re
+```
 ## Usage 
 ```
 ./fdf <map_file>
